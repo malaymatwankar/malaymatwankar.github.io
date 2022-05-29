@@ -42,8 +42,17 @@ ul {
   padding: 10px;
 }
 
+hr {
+  border: 1px solid #4e9fe5;
+  background-color: #4e9fe5;
+}
+
+.my-name {
+  color: #4e9fe5;
+}
+
 .section-title {
-  color: gray;
+  color: #4e9fe5;
   margin-bottom: 12px;
 }
 
