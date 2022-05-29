@@ -1,0 +1,107 @@
+html,
+body,
+#root {
+  font-size: 16px;
+  line-height: 1.4;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+h3 {
+  font-size: 1rem;
+}
+h4 {
+  font-size: 0.5rem;
+}
+h5 {
+  font-size: 0.25rem;
+}
+h6 {
+  font-size: 0.05rem;
+}
+
+ul {
+  list-style: none;
+}
+
+.resume-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.resume {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.section-title {
+  color: gray;
+  margin-bottom: 12px;
+}
+
+.tag-line {
+  font-size: 0.87rem;
+  display: inline-block;
+}
+
+.current-status {
+  font-size: 0.75rem;
+  color: gray;
+}
+
+.current-status-item {
+  display: inline;
+}
+.current-status-text {
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.community {
+  display: inline;
+}
+
+.tag {
+  display: inline-block;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 0.75rem;
+  margin-right: 8px;
+  border-radius: 2px;
+  background: #cacfd2;
+}
+
+.greeting {
+  margin-bottom: 12px;
+}
+
+.about-myself-para {
+  margin-bottom: 12px;
+}
+
+.technology {
+  display: inline;
+}
+
+.position {
+  font-weight: bold;
+  display: block;
+}
+
+.experience-detail {
+  margin-bottom: 12px;
+}
+
+.company-name,
+.delimiter,
+.duration {
+  color: gray;
+}
