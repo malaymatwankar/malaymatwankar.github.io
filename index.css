@@ -42,6 +42,23 @@ ul {
   padding: 10px;
 }
 
+.resume-header {
+  display: flex;
+  align-items: center;
+}
+
+.my-pciture-wrapper {
+  display: inline-block;
+  margin-right: 15px;
+  height: 90px;
+  width: 90px;
+}
+
+.my-picture {
+  height: 100%;
+  width: 100%;
+}
+
 hr {
   border: 1px solid #4e9fe5;
   background-color: #4e9fe5;
@@ -127,6 +144,23 @@ hr {
 }
 
 .greeting-image {
+  height: 100%;
+  width: 100%;
+}
+
+.experience-detail {
+  display: flex;
+  align-items: center;
+}
+
+.company-logo-wrapper {
+  display: inline-block;
+  margin-right: 15px;
+  height: 50px;
+  width: 50px;
+}
+
+.company-logo {
   height: 100%;
   width: 100%;
 }
