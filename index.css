@@ -105,3 +105,19 @@ ul {
 .duration {
   color: gray;
 }
+
+.greeting-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.greeting-image-wrapper {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+}
+
+.greeting-image {
+  height: 100%;
+  width: 100%;
+}
