@@ -21,87 +21,54 @@
       src="https://kit.fontawesome.com/665277c4eb.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="./reset.css" />
-    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./reset.css" type="text/css" />
+    <link rel="stylesheet" href="./styles.css" type="text/css" />
   </head>
   <body>
-    <div class="resume-wrapper">
-      <div class="resume">
-        <header class="resume-header">
-          <div class="my-pciture-wrapper">
-            <img
-              class="my-picture"
-              src="assets/profile-picture.png"
-              alt="Malay's picture"
-            />
-          </div>
-          <div class="basic-details">
-            <h2 class="my-name">Malay Matwankar</h2>
-            <span class="tag-line"
-              >Web Developer | Tech Lead | Clean Code Advocate</span
-            >
-            <ul class="current-status">
-              <li class="current-status-item">
-                <i class="fa-solid fa-location-dot"></i>
-                <span class="current-status-text"
-                  >Vadodara, Gujarat, India</span
-                >
-              </li>
-              <li class="current-status-item">
-                <i class="fa-solid fa-address-card"></i>
-                <span class="current-status-text">Associate Tech Lead</span>
-              </li>
-              <li class="current-status-item">
-                <i class="fa-solid fa-building"></i>
-                <span class="current-status-text">Adrixus Tech Studio</span>
-              </li>
-            </ul>
-          </div>
-        </header>
-        <hr />
-        <section class="community-presence">
-          <h3 class="section-title">Community Presence</h3>
-          <ul class="communities">
-            <li class="community">
-              <div class="tag">
-                <i class="fa-brands fa-linkedin"></i>
-                <span class="tag-text">LinkedIn</span>
+    <div class="App">
+      <div class="main-wrapper">
+        <header class="App-header">
+          <div class="banner">
+            <div class="banner-content">
+              <div class="picture-wrapper">
+                <img src="./assets/hi-icon.png" class="picture" alt="Picture" />
               </div>
-            </li>
-            <li class="community">
-              <div class="tag">
-                <i class="fa-brands fa-medium"></i>
-                <span class="tag-text">Medium</span>
+              <div class="description">
+                <h1 class="description-details">Malay Matwankar</h1>
+                <h3 class="description-designation">Associate Tech Lead</h3>
+                <div class="social-presense">
+                  <a
+                    href="https://in.linkedin.com/in/malay-matwankar-347b64143"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="fa-brands fa-linkedin"></i
+                  ></a>
+                  <a
+                    href="https://medium.com/@matwankarmalay"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="fa-brands fa-medium"></i
+                  ></a>
+                  <a
+                    href="https://github.com/malaymatwankar"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="fa-brands fa-github"></i
+                  ></a>
+                  <a
+                    href="https://twitter.com/malaymatwankar"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="fa-brands fa-twitter"></i
+                  ></a>
+                </div>
               </div>
-            </li>
-            <li class="community">
-              <div class="tag">
-                <i class="fa-brands fa-github"></i>
-                <span class="tag-text">Github</span>
-              </div>
-            </li>
-            <li class="community">
-              <div class="tag">
-                <i class="fa-brands fa-twitter"></i>
-                <span class="tag-text">Twitter</span>
-              </div>
-            </li>
-          </ul>
-          <hr />
-        </section>
-        <section class="about">
-          <h3 class="section-title">About</h3>
-          <div class="greeting-wrapper">
-            <h2 class="greeting">Hello everyone, I'm Malay</h2>
-            <div class="greeting-image-wrapper">
-              <img
-                class="greeting-image"
-                src="./assets/hi-icon.png"
-                alt="Malay waving"
-              />
             </div>
           </div>
-          <div class="my-self">
+        </header>
+        <section class="about-me-section">
+          <h2 class="sub-section-title">About Me</h2>
+          <div class="about-description">
             <p class="about-myself-para">
               I've 5+ years of experience in web application development, where
               I worked with teams that followed Agile methodology for product
@@ -120,105 +87,129 @@
               improving my communication with machines.
             </p>
           </div>
+          <h2 class="sub-section-title">Basic Information</h2>
+          <div class="basic-info-description">
+            <div class="basic-info-item">
+              <strong>AGE:</strong>
+              <div class="basic-info-value"><span>27</span></div>
+            </div>
+            <div class="basic-info-item">
+              <strong>Email:</strong>
+              <div class="basic-info-value">
+                <span>matwankarmalay@gmail.com</span>
+              </div>
+            </div>
+            <div class="basic-info-item">
+              <strong>LANGUAGE:</strong>
+              <div class="basic-info-value">
+                <span>English, Marathi, Gujarati, Hindi</span>
+              </div>
+            </div>
+          </div>
         </section>
-        <hr />
-        <section class="tech-stack">
-          <h3 class="section-title">Tech Stack</h3>
-          <ul class="technologies">
-            <li class="technology">
-              <div class="tag">
-                <i class="fa-brands fa-react"></i>
-                <span class="tag-text">ReactJs</span>
-              </div>
-            </li>
-            <li class="technology">
-              <div class="tag">
-                <i class="fa-brands fa-node-js"></i>
-                <span class="tag-text">NodeJs</span>
-              </div>
-            </li>
-            <li class="technology">
-              <div class="tag">
-                <i class="fa-solid fa-database"></i>
-                <span class="tag-text">MongoDB</span>
-              </div>
-            </li>
-            <li class="technology">
-              <div class="tag">
-                <i class="fa-solid fa-database"></i>
-                <span class="tag-text">Postgres SQL</span>
-              </div>
-            </li>
-            <li class="technology">
-              <div class="tag">
-                <i class="fa-brands fa-aws"></i>
-                <span class="tag-text">AWS</span>
-              </div>
-            </li>
-            <li class="technology">
-              <div class="tag">
-                <i class="fa-brands fa-docker"></i>
-                <span class="tag-text">Docker</span>
-              </div>
-            </li>
-          </ul>
-        </section>
-        <hr />
-        <section class="past-experience">
-          <h3 class="section-title">Experience</h3>
-          <ul class="experiences">
-            <li class="experience">
-              <div class="experience-detail">
-                <div class="company-logo-wrapper">
-                  <img
-                    class="company-logo"
-                    src="./assets/adrixus-logo.jpeg"
-                    alt="Logo of Adrixus"
-                  />
+        <section class="skills-section">
+          <h2 class="sub-section-title">Skills</h2>
+          <div class="skills">
+            <div class="skills-wrapper">
+              <div class="progress-wrapper">
+                <div class="progress-title">
+                  <span>HTML</span>
+                  <span>80%</span>
                 </div>
-                <div class="company-details-wrapper">
-                  <span class="position">Associate Tech Lead</span>
-                  <span class="company-name">Adrixus Tech Studio</span>
-                  <span class="delimiter">&#xb7;</span>
-                  <span class="duration">Jun 2020 - Present</span>
+                <div class="progress">
+                  <div class="progress-background" style="width: 80%"></div>
                 </div>
               </div>
-            </li>
-            <li class="experience">
-              <div class="experience-detail">
-                <div class="company-logo-wrapper">
-                  <img
-                    class="company-logo"
-                    src="./assets/peaas-logo.jpeg"
-                    alt="Logo of PEaaS"
-                  />
+            </div>
+            <div class="skills-wrapper">
+              <div class="progress-wrapper">
+                <div class="progress-title">
+                  <span>CSS</span>
+                  <span>70%</span>
                 </div>
-                <div class="company-details-wrapper">
-                  <span class="position">Frontend Lead - React</span>
-                  <span class="company-name">PEaaS - a Finablr Company</span>
-                  <span class="delimiter">&#xb7;</span>
-                  <span class="duration">Oct 2017 - May 2020</span>
+                <div class="progress">
+                  <div class="progress-background" style="width: 70%"></div>
                 </div>
               </div>
-            </li>
-            <li class="experience">
-              <div class="experience-detail">
-                <div class="company-logo-wrapper">
-                  <img
-                    class="company-logo"
-                    src="./assets/srkay-logo.jpeg"
-                    alt="Logo of SRKAY"
-                  />
+            </div>
+            <div class="skills-wrapper">
+              <div class="progress-wrapper">
+                <div class="progress-title">
+                  <span>Javascript</span>
+                  <span>80%</span>
                 </div>
-                <div class="company-details-wrapper">
-                  <span class="position">Associate Software Developer</span>
-                  <span class="company-name">SRKAY Consulting Group</span>
-                  <span class="delimiter">&#xb7;</span>
-                  <span class="duration">Jun 2016 - Oct 2017</span>
+                <div class="progress">
+                  <div class="progress-background" style="width: 80%"></div>
                 </div>
               </div>
-            </li>
-          </ul>
+            </div>
+            <div class="skills-wrapper">
+              <div class="progress-wrapper">
+                <div class="progress-title">
+                  <span>ReactJS</span>
+                  <span>90%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-background" style="width: 90%"></div>
+                </div>
+              </div>
+            </div>
+            <div class="skills-wrapper">
+              <div class="progress-wrapper">
+                <div class="progress-title">
+                  <span>NodeJs And Express</span>
+                  <span>90%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-background" style="width: 90%"></div>
+                </div>
+              </div>
+            </div>
+            <div class="skills-wrapper">
+              <div class="progress-wrapper">
+                <div class="progress-title">
+                  <span>MongoDB</span>
+                  <span>80%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-background" style="width: 80%"></div>
+                </div>
+              </div>
+            </div>
+            <div class="skills-wrapper">
+              <div class="progress-wrapper">
+                <div class="progress-title">
+                  <span>PostgreSQL</span>
+                  <span>75%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-background" style="width: 70%"></div>
+                </div>
+              </div>
+            </div>
+            <div class="skills-wrapper">
+              <div class="progress-wrapper">
+                <div class="progress-title">
+                  <span>Docker</span>
+                  <span>65%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-background" style="width: 65%"></div>
+                </div>
+              </div>
+            </div>
+            <div class="skills-wrapper">
+              <div class="progress-wrapper">
+                <div class="progress-title">
+                  <span>AWS</span>
+                  <span>40%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-background" style="width: 40%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
       </div>
     </div>
