@@ -35,10 +35,12 @@ h6 {
 }
 
 .App {
-  background-color: #42c2ff;
+  /* background-color: #42c2ff; */
+  background-color: #eeeeee;
 }
 
 .main-wrapper {
+  width: 75%;
   padding: 50px;
   margin: 0 auto;
 }
@@ -218,6 +220,11 @@ h6 {
   }
 }
 
+.skills-section-title {
+  text-align: center;
+  margin: 100px 0 20px 0;
+}
+
 .skills-section {
   background: white;
   margin-top: 30px;
@@ -241,7 +248,7 @@ h6 {
 }
 
 .skills-wrapper {
-  margin-top: 15px;  
+  margin-top: 15px;
   margin-right: 5px;
   width: 90%;
 }
@@ -274,4 +281,102 @@ h6 {
   height: 100%;
   background-color: #4e9fe5;
   border-radius: 5px;
+}
+
+.experience-section-title {
+  text-align: center;
+  margin: 100px 0 20px 0;
+}
+
+.card {
+  overflow: hidden;
+  border-radius: 5px;
+  margin-bottom: 40px;
+  --modifier: calc(70ch - 100%);
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card-title {
+  height: 100px;
+  text-align: center;
+  color: white;
+  background: #4e9fe5;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 3;
+  flex-shrink: 1;
+  flex-basis: calc(var(--modifier) * 999);
+}
+
+@media only screen and (min-width: 768px) {
+  .card-title {
+    max-width: 30%;
+    height: unset;
+  }
+}
+
+.card-content {
+  padding: 20px;
+  flex-grow: 4;
+  flex-shrink: 1;
+  flex-basis: calc(var(--modifier) * 999);
+  background: white;
+}
+
+.designation {
+  margin-bottom: 5px;
+}
+
+.wrapper-card {
+  width: 70%;
+}
+
+.education-section-title {
+  text-align: center;
+  margin: 100px 0 20px 0;
+}
+
+.timeline-wrapper {
+  margin-left: 1.5rem;
+  border-left: 3px solid #42c2ff;
+}
+
+@media only screen and (min-width: 1024px) {
+  .timeline-wrapper {
+    margin-left: 1.5rem;
+    border-left: 8px solid #42c2ff;
+  }
+}
+
+@media only screen and (width: 768px), (width: 820px) {
+  .timeline-wrapper {
+    margin-left: 1.5rem;
+    border-left: 3px solid #42c2ff;
+  }
+}
+
+
+.node {
+  padding-left: 2rem;
+  padding-bottom: 1.5rem;
+  position: relative;
+}
+.node h3,
+.node p {
+  margin: 0;
+}
+.node::before {
+  content: "";
+  width: 2rem;
+  height: 2rem;
+  background: #fff;
+  border: 2px solid #4e9fe5;
+  border-radius: 50%;
+  position: absolute;
+  top: 0.3rem;
+  left: -1.4rem;
 }
